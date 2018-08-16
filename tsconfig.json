@@ -1,0 +1,13 @@
+// command line for tsc
+// create a configfile tsc --init
+// create a output directory tsc --outDir dist
+// watch files for changes tsc -watch
+
+{
+  "compilerOptions": {
+    "target": "es5",                         
+    "module": "commonjs",                  
+    "strict": true,
+    "outDir": "dist"                        
+  }
+}
